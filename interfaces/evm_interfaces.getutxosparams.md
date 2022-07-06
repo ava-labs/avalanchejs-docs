@@ -11,6 +11,7 @@
 ### Properties
 
 * [addresses](evm_interfaces.getutxosparams.md#addresses)
+* [encoding](evm_interfaces.getutxosparams.md#optional-encoding)
 * [limit](evm_interfaces.getutxosparams.md#limit)
 * [sourceChain](evm_interfaces.getutxosparams.md#optional-sourcechain)
 * [startIndex](evm_interfaces.getutxosparams.md#optional-startindex)
@@ -21,7 +22,15 @@
 
 • **addresses**: *string[] | string*
 
-*Defined in [src/apis/evm/interfaces.ts:31](https://github.com/ava-labs/avalanchejs/blob/8033096/src/apis/evm/interfaces.ts#L31)*
+*Defined in [src/apis/evm/interfaces.ts:31](https://github.com/ava-labs/avalanchejs/blob/ca67b81/src/apis/evm/interfaces.ts#L31)*
+
+___
+
+### `Optional` encoding
+
+• **encoding**? : *string*
+
+*Defined in [src/apis/evm/interfaces.ts:35](https://github.com/ava-labs/avalanchejs/blob/ca67b81/src/apis/evm/interfaces.ts#L35)*
 
 ___
 
@@ -29,7 +38,7 @@ ___
 
 • **limit**: *number*
 
-*Defined in [src/apis/evm/interfaces.ts:32](https://github.com/ava-labs/avalanchejs/blob/8033096/src/apis/evm/interfaces.ts#L32)*
+*Defined in [src/apis/evm/interfaces.ts:32](https://github.com/ava-labs/avalanchejs/blob/ca67b81/src/apis/evm/interfaces.ts#L32)*
 
 ___
 
@@ -37,7 +46,7 @@ ___
 
 • **sourceChain**? : *string*
 
-*Defined in [src/apis/evm/interfaces.ts:33](https://github.com/ava-labs/avalanchejs/blob/8033096/src/apis/evm/interfaces.ts#L33)*
+*Defined in [src/apis/evm/interfaces.ts:33](https://github.com/ava-labs/avalanchejs/blob/ca67b81/src/apis/evm/interfaces.ts#L33)*
 
 ___
 
@@ -45,4 +54,4 @@ ___
 
 • **startIndex**? : *[Index](common_interfaces.index.md)*
 
-*Defined in [src/apis/evm/interfaces.ts:34](https://github.com/ava-labs/avalanchejs/blob/8033096/src/apis/evm/interfaces.ts#L34)*
+*Defined in [src/apis/evm/interfaces.ts:34](https://github.com/ava-labs/avalanchejs/blob/ca67b81/src/apis/evm/interfaces.ts#L34)*

@@ -23,7 +23,7 @@
 
 *Inherited from [BaseIndexParams](index_interfaces.baseindexparams.md).[encoding](index_interfaces.baseindexparams.md#encoding)*
 
-*Defined in [src/apis/index/interfaces.ts:7](https://github.com/ava-labs/avalanchejs/blob/8033096/src/apis/index/interfaces.ts#L7)*
+*Defined in [src/apis/index/interfaces.ts:7](https://github.com/ava-labs/avalanchejs/blob/ca67b81/src/apis/index/interfaces.ts#L7)*
 
 ___
 
@@ -31,4 +31,4 @@ ___
 
 • **index**: *string*
 
-*Defined in [src/apis/index/interfaces.ts:27](https://github.com/ava-labs/avalanchejs/blob/8033096/src/apis/index/interfaces.ts#L27)*
+*Defined in [src/apis/index/interfaces.ts:27](https://github.com/ava-labs/avalanchejs/blob/ca67b81/src/apis/index/interfaces.ts#L27)*

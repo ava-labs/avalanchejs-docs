@@ -19,4 +19,4 @@
 
 • **serialization**: *[Serialization](../classes/utils_serialization.serialization.md)* = Serialization.getInstance()
 
-*Defined in [src/apis/platformvm/keychain.ts:14](https://github.com/ava-labs/avalanchejs/blob/8033096/src/apis/platformvm/keychain.ts#L14)*
+*Defined in [src/apis/platformvm/keychain.ts:14](https://github.com/ava-labs/avalanchejs/blob/ca67b81/src/apis/platformvm/keychain.ts#L14)*

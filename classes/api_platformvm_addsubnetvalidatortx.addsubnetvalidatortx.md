@@ -69,6 +69,7 @@ Class representing an unsigned AddSubnetValidatorTx transaction.
 * [sign](api_platformvm_addsubnetvalidatortx.addsubnetvalidatortx.md#sign)
 * [toBuffer](api_platformvm_addsubnetvalidatortx.addsubnetvalidatortx.md#tobuffer)
 * [toString](api_platformvm_addsubnetvalidatortx.addsubnetvalidatortx.md#tostring)
+* [toStringHex](api_platformvm_addsubnetvalidatortx.addsubnetvalidatortx.md#tostringhex)
 
 ## Constructors
 
@@ -78,7 +79,7 @@ Class representing an unsigned AddSubnetValidatorTx transaction.
 
 *Overrides [BaseTx](api_platformvm_basetx.basetx.md).[constructor](api_platformvm_basetx.basetx.md#constructor)*
 
-*Defined in [src/apis/platformvm/addsubnetvalidatortx.ts:244](https://github.com/ava-labs/avalanchejs/blob/8033096/src/apis/platformvm/addsubnetvalidatortx.ts#L244)*
+*Defined in [src/apis/platformvm/addsubnetvalidatortx.ts:244](https://github.com/ava-labs/avalanchejs/blob/ca67b81/src/apis/platformvm/addsubnetvalidatortx.ts#L244)*
 
 Class representing an unsigned AddSubnetValidator transaction.
 
@@ -107,7 +108,7 @@ Name | Type | Default | Description |
 
 *Inherited from [NBytes](common_nbytes.nbytes.md).[_codecID](common_nbytes.nbytes.md#protected-_codecid)*
 
-*Defined in [src/utils/serialization.ts:51](https://github.com/ava-labs/avalanchejs/blob/8033096/src/utils/serialization.ts#L51)*
+*Defined in [src/utils/serialization.ts:51](https://github.com/ava-labs/avalanchejs/blob/ca67b81/src/utils/serialization.ts#L51)*
 
 ___
 
@@ -117,7 +118,7 @@ ___
 
 *Overrides [BaseTx](api_platformvm_basetx.basetx.md).[_typeID](api_platformvm_basetx.basetx.md#protected-_typeid)*
 
-*Defined in [src/apis/platformvm/addsubnetvalidatortx.ts:30](https://github.com/ava-labs/avalanchejs/blob/8033096/src/apis/platformvm/addsubnetvalidatortx.ts#L30)*
+*Defined in [src/apis/platformvm/addsubnetvalidatortx.ts:30](https://github.com/ava-labs/avalanchejs/blob/ca67b81/src/apis/platformvm/addsubnetvalidatortx.ts#L30)*
 
 ___
 
@@ -127,7 +128,7 @@ ___
 
 *Overrides [BaseTx](api_platformvm_basetx.basetx.md).[_typeName](api_platformvm_basetx.basetx.md#protected-_typename)*
 
-*Defined in [src/apis/platformvm/addsubnetvalidatortx.ts:29](https://github.com/ava-labs/avalanchejs/blob/8033096/src/apis/platformvm/addsubnetvalidatortx.ts#L29)*
+*Defined in [src/apis/platformvm/addsubnetvalidatortx.ts:29](https://github.com/ava-labs/avalanchejs/blob/ca67b81/src/apis/platformvm/addsubnetvalidatortx.ts#L29)*
 
 ___
 
@@ -137,7 +138,7 @@ ___
 
 *Inherited from [StandardBaseTx](common_transactions.standardbasetx.md).[blockchainID](common_transactions.standardbasetx.md#protected-blockchainid)*
 
-*Defined in [src/common/tx.ts:82](https://github.com/ava-labs/avalanchejs/blob/8033096/src/common/tx.ts#L82)*
+*Defined in [src/common/tx.ts:82](https://github.com/ava-labs/avalanchejs/blob/ca67b81/src/common/tx.ts#L82)*
 
 ___
 
@@ -145,7 +146,7 @@ ___
 
 • **endTime**: *Buffer* = Buffer.alloc(8)
 
-*Defined in [src/apis/platformvm/addsubnetvalidatortx.ts:58](https://github.com/ava-labs/avalanchejs/blob/8033096/src/apis/platformvm/addsubnetvalidatortx.ts#L58)*
+*Defined in [src/apis/platformvm/addsubnetvalidatortx.ts:58](https://github.com/ava-labs/avalanchejs/blob/ca67b81/src/apis/platformvm/addsubnetvalidatortx.ts#L58)*
 
 ___
 
@@ -155,7 +156,7 @@ ___
 
 *Inherited from [StandardBaseTx](common_transactions.standardbasetx.md).[ins](common_transactions.standardbasetx.md#protected-ins)*
 
-*Defined in [src/common/tx.ts:86](https://github.com/ava-labs/avalanchejs/blob/8033096/src/common/tx.ts#L86)*
+*Defined in [src/common/tx.ts:86](https://github.com/ava-labs/avalanchejs/blob/ca67b81/src/common/tx.ts#L86)*
 
 ___
 
@@ -165,7 +166,7 @@ ___
 
 *Inherited from [StandardBaseTx](common_transactions.standardbasetx.md).[memo](common_transactions.standardbasetx.md#protected-memo)*
 
-*Defined in [src/common/tx.ts:87](https://github.com/ava-labs/avalanchejs/blob/8033096/src/common/tx.ts#L87)*
+*Defined in [src/common/tx.ts:87](https://github.com/ava-labs/avalanchejs/blob/ca67b81/src/common/tx.ts#L87)*
 
 ___
 
@@ -175,7 +176,7 @@ ___
 
 *Inherited from [StandardBaseTx](common_transactions.standardbasetx.md).[networkID](common_transactions.standardbasetx.md#protected-networkid)*
 
-*Defined in [src/common/tx.ts:81](https://github.com/ava-labs/avalanchejs/blob/8033096/src/common/tx.ts#L81)*
+*Defined in [src/common/tx.ts:81](https://github.com/ava-labs/avalanchejs/blob/ca67b81/src/common/tx.ts#L81)*
 
 ___
 
@@ -183,7 +184,7 @@ ___
 
 • **nodeID**: *Buffer* = Buffer.alloc(20)
 
-*Defined in [src/apis/platformvm/addsubnetvalidatortx.ts:56](https://github.com/ava-labs/avalanchejs/blob/8033096/src/apis/platformvm/addsubnetvalidatortx.ts#L56)*
+*Defined in [src/apis/platformvm/addsubnetvalidatortx.ts:56](https://github.com/ava-labs/avalanchejs/blob/ca67b81/src/apis/platformvm/addsubnetvalidatortx.ts#L56)*
 
 ___
 
@@ -193,7 +194,7 @@ ___
 
 *Inherited from [StandardBaseTx](common_transactions.standardbasetx.md).[numins](common_transactions.standardbasetx.md#protected-numins)*
 
-*Defined in [src/common/tx.ts:85](https://github.com/ava-labs/avalanchejs/blob/8033096/src/common/tx.ts#L85)*
+*Defined in [src/common/tx.ts:85](https://github.com/ava-labs/avalanchejs/blob/ca67b81/src/common/tx.ts#L85)*
 
 ___
 
@@ -203,7 +204,7 @@ ___
 
 *Inherited from [StandardBaseTx](common_transactions.standardbasetx.md).[numouts](common_transactions.standardbasetx.md#protected-numouts)*
 
-*Defined in [src/common/tx.ts:83](https://github.com/ava-labs/avalanchejs/blob/8033096/src/common/tx.ts#L83)*
+*Defined in [src/common/tx.ts:83](https://github.com/ava-labs/avalanchejs/blob/ca67b81/src/common/tx.ts#L83)*
 
 ___
 
@@ -213,7 +214,7 @@ ___
 
 *Inherited from [StandardBaseTx](common_transactions.standardbasetx.md).[outs](common_transactions.standardbasetx.md#protected-outs)*
 
-*Defined in [src/common/tx.ts:84](https://github.com/ava-labs/avalanchejs/blob/8033096/src/common/tx.ts#L84)*
+*Defined in [src/common/tx.ts:84](https://github.com/ava-labs/avalanchejs/blob/ca67b81/src/common/tx.ts#L84)*
 
 ___
 
@@ -221,7 +222,7 @@ ___
 
 • **sigCount**: *Buffer* = Buffer.alloc(4)
 
-*Defined in [src/apis/platformvm/addsubnetvalidatortx.ts:62](https://github.com/ava-labs/avalanchejs/blob/8033096/src/apis/platformvm/addsubnetvalidatortx.ts#L62)*
+*Defined in [src/apis/platformvm/addsubnetvalidatortx.ts:62](https://github.com/ava-labs/avalanchejs/blob/ca67b81/src/apis/platformvm/addsubnetvalidatortx.ts#L62)*
 
 ___
 
@@ -229,7 +230,7 @@ ___
 
 • **sigIdxs**: *[SigIdx](common_signature.sigidx.md)[]* = []
 
-*Defined in [src/apis/platformvm/addsubnetvalidatortx.ts:63](https://github.com/ava-labs/avalanchejs/blob/8033096/src/apis/platformvm/addsubnetvalidatortx.ts#L63)*
+*Defined in [src/apis/platformvm/addsubnetvalidatortx.ts:63](https://github.com/ava-labs/avalanchejs/blob/ca67b81/src/apis/platformvm/addsubnetvalidatortx.ts#L63)*
 
 ___
 
@@ -237,7 +238,7 @@ ___
 
 • **startTime**: *Buffer* = Buffer.alloc(8)
 
-*Defined in [src/apis/platformvm/addsubnetvalidatortx.ts:57](https://github.com/ava-labs/avalanchejs/blob/8033096/src/apis/platformvm/addsubnetvalidatortx.ts#L57)*
+*Defined in [src/apis/platformvm/addsubnetvalidatortx.ts:57](https://github.com/ava-labs/avalanchejs/blob/ca67b81/src/apis/platformvm/addsubnetvalidatortx.ts#L57)*
 
 ___
 
@@ -245,7 +246,7 @@ ___
 
 • **subnetAuth**: *[SubnetAuth](api_platformvm_subnetauth.subnetauth.md)*
 
-*Defined in [src/apis/platformvm/addsubnetvalidatortx.ts:61](https://github.com/ava-labs/avalanchejs/blob/8033096/src/apis/platformvm/addsubnetvalidatortx.ts#L61)*
+*Defined in [src/apis/platformvm/addsubnetvalidatortx.ts:61](https://github.com/ava-labs/avalanchejs/blob/ca67b81/src/apis/platformvm/addsubnetvalidatortx.ts#L61)*
 
 ___
 
@@ -253,7 +254,7 @@ ___
 
 • **subnetID**: *Buffer* = Buffer.alloc(32)
 
-*Defined in [src/apis/platformvm/addsubnetvalidatortx.ts:60](https://github.com/ava-labs/avalanchejs/blob/8033096/src/apis/platformvm/addsubnetvalidatortx.ts#L60)*
+*Defined in [src/apis/platformvm/addsubnetvalidatortx.ts:60](https://github.com/ava-labs/avalanchejs/blob/ca67b81/src/apis/platformvm/addsubnetvalidatortx.ts#L60)*
 
 ___
 
@@ -261,7 +262,7 @@ ___
 
 • **weight**: *Buffer* = Buffer.alloc(8)
 
-*Defined in [src/apis/platformvm/addsubnetvalidatortx.ts:59](https://github.com/ava-labs/avalanchejs/blob/8033096/src/apis/platformvm/addsubnetvalidatortx.ts#L59)*
+*Defined in [src/apis/platformvm/addsubnetvalidatortx.ts:59](https://github.com/ava-labs/avalanchejs/blob/ca67b81/src/apis/platformvm/addsubnetvalidatortx.ts#L59)*
 
 ## Methods
 
@@ -269,7 +270,7 @@ ___
 
 ▸ **addSignatureIdx**(`addressIdx`: number, `address`: Buffer): *void*
 
-*Defined in [src/apis/platformvm/addsubnetvalidatortx.ts:198](https://github.com/ava-labs/avalanchejs/blob/8033096/src/apis/platformvm/addsubnetvalidatortx.ts#L198)*
+*Defined in [src/apis/platformvm/addsubnetvalidatortx.ts:198](https://github.com/ava-labs/avalanchejs/blob/ca67b81/src/apis/platformvm/addsubnetvalidatortx.ts#L198)*
 
 Creates and adds a [SigIdx](common_signature.sigidx.md) to the [AddSubnetValidatorTx](api_platformvm_addsubnetvalidatortx.addsubnetvalidatortx.md).
 
@@ -290,7 +291,7 @@ ___
 
 *Overrides [ValidatorTx](api_platformvm_validationtx.validatortx.md).[clone](api_platformvm_validationtx.validatortx.md#clone)*
 
-*Defined in [src/apis/platformvm/addsubnetvalidatortx.ts:181](https://github.com/ava-labs/avalanchejs/blob/8033096/src/apis/platformvm/addsubnetvalidatortx.ts#L181)*
+*Defined in [src/apis/platformvm/addsubnetvalidatortx.ts:181](https://github.com/ava-labs/avalanchejs/blob/ca67b81/src/apis/platformvm/addsubnetvalidatortx.ts#L181)*
 
 **Returns:** *this*
 
@@ -302,7 +303,7 @@ ___
 
 *Overrides [ValidatorTx](api_platformvm_validationtx.validatortx.md).[create](api_platformvm_validationtx.validatortx.md#create)*
 
-*Defined in [src/apis/platformvm/addsubnetvalidatortx.ts:188](https://github.com/ava-labs/avalanchejs/blob/8033096/src/apis/platformvm/addsubnetvalidatortx.ts#L188)*
+*Defined in [src/apis/platformvm/addsubnetvalidatortx.ts:188](https://github.com/ava-labs/avalanchejs/blob/ca67b81/src/apis/platformvm/addsubnetvalidatortx.ts#L188)*
 
 **Parameters:**
 
@@ -320,7 +321,7 @@ ___
 
 *Overrides [BaseTx](api_platformvm_basetx.basetx.md).[deserialize](api_platformvm_basetx.basetx.md#deserialize)*
 
-*Defined in [src/apis/platformvm/addsubnetvalidatortx.ts:40](https://github.com/ava-labs/avalanchejs/blob/8033096/src/apis/platformvm/addsubnetvalidatortx.ts#L40)*
+*Defined in [src/apis/platformvm/addsubnetvalidatortx.ts:40](https://github.com/ava-labs/avalanchejs/blob/ca67b81/src/apis/platformvm/addsubnetvalidatortx.ts#L40)*
 
 **Parameters:**
 
@@ -339,7 +340,7 @@ ___
 
 *Overrides [BaseTx](api_platformvm_basetx.basetx.md).[fromBuffer](api_platformvm_basetx.basetx.md#frombuffer)*
 
-*Defined in [src/apis/platformvm/addsubnetvalidatortx.ts:129](https://github.com/ava-labs/avalanchejs/blob/8033096/src/apis/platformvm/addsubnetvalidatortx.ts#L129)*
+*Defined in [src/apis/platformvm/addsubnetvalidatortx.ts:129](https://github.com/ava-labs/avalanchejs/blob/ca67b81/src/apis/platformvm/addsubnetvalidatortx.ts#L129)*
 
 Takes a [Buffer](https://github.com/feross/buffer) containing an [AddSubnetValidatorTx](api_platformvm_addsubnetvalidatortx.addsubnetvalidatortx.md), parses it, populates the class, and returns the length of the [CreateChainTx](api_platformvm_createchaintx.createchaintx.md) in bytes.
 
@@ -364,7 +365,7 @@ ___
 
 *Inherited from [StandardBaseTx](common_transactions.standardbasetx.md).[getBlockchainID](common_transactions.standardbasetx.md#getblockchainid)*
 
-*Defined in [src/common/tx.ts:104](https://github.com/ava-labs/avalanchejs/blob/8033096/src/common/tx.ts#L104)*
+*Defined in [src/common/tx.ts:104](https://github.com/ava-labs/avalanchejs/blob/ca67b81/src/common/tx.ts#L104)*
 
 Returns the Buffer representation of the BlockchainID
 
@@ -378,7 +379,7 @@ ___
 
 *Inherited from [NBytes](common_nbytes.nbytes.md).[getCodecID](common_nbytes.nbytes.md#getcodecid)*
 
-*Defined in [src/utils/serialization.ts:70](https://github.com/ava-labs/avalanchejs/blob/8033096/src/utils/serialization.ts#L70)*
+*Defined in [src/utils/serialization.ts:70](https://github.com/ava-labs/avalanchejs/blob/ca67b81/src/utils/serialization.ts#L70)*
 
 Used in serialization. Optional. TypeID is a number for the typeID of object being output.
 
@@ -390,7 +391,7 @@ ___
 
 ▸ **getCredentialID**(): *number*
 
-*Defined in [src/apis/platformvm/addsubnetvalidatortx.ts:219](https://github.com/ava-labs/avalanchejs/blob/8033096/src/apis/platformvm/addsubnetvalidatortx.ts#L219)*
+*Defined in [src/apis/platformvm/addsubnetvalidatortx.ts:219](https://github.com/ava-labs/avalanchejs/blob/ca67b81/src/apis/platformvm/addsubnetvalidatortx.ts#L219)*
 
 **Returns:** *number*
 
@@ -400,7 +401,7 @@ ___
 
 ▸ **getEndTime**(): *BN*
 
-*Defined in [src/apis/platformvm/addsubnetvalidatortx.ts:96](https://github.com/ava-labs/avalanchejs/blob/8033096/src/apis/platformvm/addsubnetvalidatortx.ts#L96)*
+*Defined in [src/apis/platformvm/addsubnetvalidatortx.ts:96](https://github.com/ava-labs/avalanchejs/blob/ca67b81/src/apis/platformvm/addsubnetvalidatortx.ts#L96)*
 
 Returns a [BN](https://github.com/indutny/bn.js/) for the endTime.
 
@@ -416,7 +417,7 @@ ___
 
 *Overrides [StandardBaseTx](common_transactions.standardbasetx.md).[getIns](common_transactions.standardbasetx.md#abstract-getins)*
 
-*Defined in [src/apis/platformvm/basetx.ts:52](https://github.com/ava-labs/avalanchejs/blob/8033096/src/apis/platformvm/basetx.ts#L52)*
+*Defined in [src/apis/platformvm/basetx.ts:52](https://github.com/ava-labs/avalanchejs/blob/ca67b81/src/apis/platformvm/basetx.ts#L52)*
 
 **Returns:** *[TransferableInput](api_platformvm_inputs.transferableinput.md)[]*
 
@@ -428,7 +429,7 @@ ___
 
 *Inherited from [StandardBaseTx](common_transactions.standardbasetx.md).[getMemo](common_transactions.standardbasetx.md#getmemo)*
 
-*Defined in [src/common/tx.ts:126](https://github.com/ava-labs/avalanchejs/blob/8033096/src/common/tx.ts#L126)*
+*Defined in [src/common/tx.ts:126](https://github.com/ava-labs/avalanchejs/blob/ca67b81/src/common/tx.ts#L126)*
 
 Returns the [Buffer](https://github.com/feross/buffer) representation of the memo
 
@@ -442,7 +443,7 @@ ___
 
 *Inherited from [StandardBaseTx](common_transactions.standardbasetx.md).[getNetworkID](common_transactions.standardbasetx.md#getnetworkid)*
 
-*Defined in [src/common/tx.ts:97](https://github.com/ava-labs/avalanchejs/blob/8033096/src/common/tx.ts#L97)*
+*Defined in [src/common/tx.ts:97](https://github.com/ava-labs/avalanchejs/blob/ca67b81/src/common/tx.ts#L97)*
 
 Returns the NetworkID as a number
 
@@ -454,7 +455,7 @@ ___
 
 ▸ **getNodeID**(): *Buffer*
 
-*Defined in [src/apis/platformvm/addsubnetvalidatortx.ts:75](https://github.com/ava-labs/avalanchejs/blob/8033096/src/apis/platformvm/addsubnetvalidatortx.ts#L75)*
+*Defined in [src/apis/platformvm/addsubnetvalidatortx.ts:75](https://github.com/ava-labs/avalanchejs/blob/ca67b81/src/apis/platformvm/addsubnetvalidatortx.ts#L75)*
 
 Returns a [Buffer](https://github.com/feross/buffer) for the stake amount.
 
@@ -466,7 +467,7 @@ ___
 
 ▸ **getNodeIDString**(): *string*
 
-*Defined in [src/apis/platformvm/addsubnetvalidatortx.ts:82](https://github.com/ava-labs/avalanchejs/blob/8033096/src/apis/platformvm/addsubnetvalidatortx.ts#L82)*
+*Defined in [src/apis/platformvm/addsubnetvalidatortx.ts:82](https://github.com/ava-labs/avalanchejs/blob/ca67b81/src/apis/platformvm/addsubnetvalidatortx.ts#L82)*
 
 Returns a string for the nodeID amount.
 
@@ -482,7 +483,7 @@ ___
 
 *Overrides [StandardBaseTx](common_transactions.standardbasetx.md).[getOuts](common_transactions.standardbasetx.md#abstract-getouts)*
 
-*Defined in [src/apis/platformvm/basetx.ts:48](https://github.com/ava-labs/avalanchejs/blob/8033096/src/apis/platformvm/basetx.ts#L48)*
+*Defined in [src/apis/platformvm/basetx.ts:48](https://github.com/ava-labs/avalanchejs/blob/ca67b81/src/apis/platformvm/basetx.ts#L48)*
 
 **Returns:** *[TransferableOutput](api_platformvm_outputs.transferableoutput.md)[]*
 
@@ -492,7 +493,7 @@ ___
 
 ▸ **getSigIdxs**(): *[SigIdx](common_signature.sigidx.md)[]*
 
-*Defined in [src/apis/platformvm/addsubnetvalidatortx.ts:215](https://github.com/ava-labs/avalanchejs/blob/8033096/src/apis/platformvm/addsubnetvalidatortx.ts#L215)*
+*Defined in [src/apis/platformvm/addsubnetvalidatortx.ts:215](https://github.com/ava-labs/avalanchejs/blob/ca67b81/src/apis/platformvm/addsubnetvalidatortx.ts#L215)*
 
 Returns the array of [SigIdx](common_signature.sigidx.md) for this [Input](common_inputs.input.md)
 
@@ -504,7 +505,7 @@ ___
 
 ▸ **getStartTime**(): *BN*
 
-*Defined in [src/apis/platformvm/addsubnetvalidatortx.ts:89](https://github.com/ava-labs/avalanchejs/blob/8033096/src/apis/platformvm/addsubnetvalidatortx.ts#L89)*
+*Defined in [src/apis/platformvm/addsubnetvalidatortx.ts:89](https://github.com/ava-labs/avalanchejs/blob/ca67b81/src/apis/platformvm/addsubnetvalidatortx.ts#L89)*
 
 Returns a [BN](https://github.com/indutny/bn.js/) for the startTime.
 
@@ -516,7 +517,7 @@ ___
 
 ▸ **getSubnetAuth**(): *[SubnetAuth](api_platformvm_subnetauth.subnetauth.md)*
 
-*Defined in [src/apis/platformvm/addsubnetvalidatortx.ts:116](https://github.com/ava-labs/avalanchejs/blob/8033096/src/apis/platformvm/addsubnetvalidatortx.ts#L116)*
+*Defined in [src/apis/platformvm/addsubnetvalidatortx.ts:116](https://github.com/ava-labs/avalanchejs/blob/ca67b81/src/apis/platformvm/addsubnetvalidatortx.ts#L116)*
 
 Returns the subnetAuth
 
@@ -528,7 +529,7 @@ ___
 
 ▸ **getSubnetID**(): *string*
 
-*Defined in [src/apis/platformvm/addsubnetvalidatortx.ts:110](https://github.com/ava-labs/avalanchejs/blob/8033096/src/apis/platformvm/addsubnetvalidatortx.ts#L110)*
+*Defined in [src/apis/platformvm/addsubnetvalidatortx.ts:110](https://github.com/ava-labs/avalanchejs/blob/ca67b81/src/apis/platformvm/addsubnetvalidatortx.ts#L110)*
 
 Returns the subnetID as a string
 
@@ -544,7 +545,7 @@ ___
 
 *Overrides [StandardBaseTx](common_transactions.standardbasetx.md).[getTotalOuts](common_transactions.standardbasetx.md#abstract-gettotalouts)*
 
-*Defined in [src/apis/platformvm/basetx.ts:56](https://github.com/ava-labs/avalanchejs/blob/8033096/src/apis/platformvm/basetx.ts#L56)*
+*Defined in [src/apis/platformvm/basetx.ts:56](https://github.com/ava-labs/avalanchejs/blob/ca67b81/src/apis/platformvm/basetx.ts#L56)*
 
 **Returns:** *[TransferableOutput](api_platformvm_outputs.transferableoutput.md)[]*
 
@@ -556,7 +557,7 @@ ___
 
 *Overrides [ValidatorTx](api_platformvm_validationtx.validatortx.md).[getTxType](api_platformvm_validationtx.validatortx.md#gettxtype)*
 
-*Defined in [src/apis/platformvm/addsubnetvalidatortx.ts:68](https://github.com/ava-labs/avalanchejs/blob/8033096/src/apis/platformvm/addsubnetvalidatortx.ts#L68)*
+*Defined in [src/apis/platformvm/addsubnetvalidatortx.ts:68](https://github.com/ava-labs/avalanchejs/blob/ca67b81/src/apis/platformvm/addsubnetvalidatortx.ts#L68)*
 
 Returns the id of the [AddSubnetValidatorTx](api_platformvm_addsubnetvalidatortx.addsubnetvalidatortx.md)
 
@@ -570,7 +571,7 @@ ___
 
 *Inherited from [NBytes](common_nbytes.nbytes.md).[getTypeID](common_nbytes.nbytes.md#gettypeid)*
 
-*Defined in [src/utils/serialization.ts:63](https://github.com/ava-labs/avalanchejs/blob/8033096/src/utils/serialization.ts#L63)*
+*Defined in [src/utils/serialization.ts:63](https://github.com/ava-labs/avalanchejs/blob/ca67b81/src/utils/serialization.ts#L63)*
 
 Used in serialization. Optional. TypeID is a number for the typeID of object being output.
 
@@ -584,7 +585,7 @@ ___
 
 *Inherited from [NBytes](common_nbytes.nbytes.md).[getTypeName](common_nbytes.nbytes.md#gettypename)*
 
-*Defined in [src/utils/serialization.ts:56](https://github.com/ava-labs/avalanchejs/blob/8033096/src/utils/serialization.ts#L56)*
+*Defined in [src/utils/serialization.ts:56](https://github.com/ava-labs/avalanchejs/blob/ca67b81/src/utils/serialization.ts#L56)*
 
 Used in serialization. TypeName is a string name for the type of object being output.
 
@@ -596,7 +597,7 @@ ___
 
 ▸ **getWeight**(): *BN*
 
-*Defined in [src/apis/platformvm/addsubnetvalidatortx.ts:103](https://github.com/ava-labs/avalanchejs/blob/8033096/src/apis/platformvm/addsubnetvalidatortx.ts#L103)*
+*Defined in [src/apis/platformvm/addsubnetvalidatortx.ts:103](https://github.com/ava-labs/avalanchejs/blob/ca67b81/src/apis/platformvm/addsubnetvalidatortx.ts#L103)*
 
 Returns a [BN](https://github.com/indutny/bn.js/) for the weight
 
@@ -610,7 +611,7 @@ ___
 
 *Inherited from [NBytes](common_nbytes.nbytes.md).[sanitizeObject](common_nbytes.nbytes.md#sanitizeobject)*
 
-*Defined in [src/utils/serialization.ts:77](https://github.com/ava-labs/avalanchejs/blob/8033096/src/utils/serialization.ts#L77)*
+*Defined in [src/utils/serialization.ts:77](https://github.com/ava-labs/avalanchejs/blob/ca67b81/src/utils/serialization.ts#L77)*
 
 Sanitize to prevent cross scripting attacks.
 
@@ -632,7 +633,7 @@ ___
 
 *Overrides [StandardBaseTx](common_transactions.standardbasetx.md).[select](common_transactions.standardbasetx.md#abstract-select)*
 
-*Defined in [src/apis/platformvm/basetx.ts:146](https://github.com/ava-labs/avalanchejs/blob/8033096/src/apis/platformvm/basetx.ts#L146)*
+*Defined in [src/apis/platformvm/basetx.ts:146](https://github.com/ava-labs/avalanchejs/blob/ca67b81/src/apis/platformvm/basetx.ts#L146)*
 
 **Parameters:**
 
@@ -651,7 +652,7 @@ ___
 
 *Overrides [StandardBaseTx](common_transactions.standardbasetx.md).[serialize](common_transactions.standardbasetx.md#serialize)*
 
-*Defined in [src/apis/platformvm/addsubnetvalidatortx.ts:32](https://github.com/ava-labs/avalanchejs/blob/8033096/src/apis/platformvm/addsubnetvalidatortx.ts#L32)*
+*Defined in [src/apis/platformvm/addsubnetvalidatortx.ts:32](https://github.com/ava-labs/avalanchejs/blob/ca67b81/src/apis/platformvm/addsubnetvalidatortx.ts#L32)*
 
 **Parameters:**
 
@@ -669,7 +670,7 @@ ___
 
 *Overrides [ExportTx](api_platformvm_exporttx.exporttx.md).[sign](api_platformvm_exporttx.exporttx.md#sign)*
 
-*Defined in [src/apis/platformvm/addsubnetvalidatortx.ts:231](https://github.com/ava-labs/avalanchejs/blob/8033096/src/apis/platformvm/addsubnetvalidatortx.ts#L231)*
+*Defined in [src/apis/platformvm/addsubnetvalidatortx.ts:231](https://github.com/ava-labs/avalanchejs/blob/ca67b81/src/apis/platformvm/addsubnetvalidatortx.ts#L231)*
 
 Takes the bytes of an [UnsignedTx](api_evm_transactions.unsignedtx.md) and returns an array of [Credential](common_signature.credential.md)s
 
@@ -692,7 +693,7 @@ ___
 
 *Overrides [StandardBaseTx](common_transactions.standardbasetx.md).[toBuffer](common_transactions.standardbasetx.md#tobuffer)*
 
-*Defined in [src/apis/platformvm/addsubnetvalidatortx.ts:157](https://github.com/ava-labs/avalanchejs/blob/8033096/src/apis/platformvm/addsubnetvalidatortx.ts#L157)*
+*Defined in [src/apis/platformvm/addsubnetvalidatortx.ts:157](https://github.com/ava-labs/avalanchejs/blob/ca67b81/src/apis/platformvm/addsubnetvalidatortx.ts#L157)*
 
 Returns a [Buffer](https://github.com/feross/buffer) representation of the [CreateChainTx](api_platformvm_createchaintx.createchaintx.md).
 
@@ -706,8 +707,20 @@ ___
 
 *Inherited from [StandardBaseTx](common_transactions.standardbasetx.md).[toString](common_transactions.standardbasetx.md#tostring)*
 
-*Defined in [src/common/tx.ts:166](https://github.com/ava-labs/avalanchejs/blob/8033096/src/common/tx.ts#L166)*
+*Defined in [src/common/tx.ts:166](https://github.com/ava-labs/avalanchejs/blob/ca67b81/src/common/tx.ts#L166)*
 
 Returns a base-58 representation of the [StandardBaseTx](common_transactions.standardbasetx.md).
+
+**Returns:** *string*
+
+___
+
+###  toStringHex
+
+▸ **toStringHex**(): *string*
+
+*Inherited from [StandardBaseTx](common_transactions.standardbasetx.md).[toStringHex](common_transactions.standardbasetx.md#tostringhex)*
+
+*Defined in [src/common/tx.ts:170](https://github.com/ava-labs/avalanchejs/blob/ca67b81/src/common/tx.ts#L170)*
 
 **Returns:** *string*

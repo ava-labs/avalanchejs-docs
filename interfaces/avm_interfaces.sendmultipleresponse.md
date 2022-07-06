@@ -19,7 +19,7 @@
 
 • **changeAddr**: *string*
 
-*Defined in [src/apis/avm/interfaces.ts:156](https://github.com/ava-labs/avalanchejs/blob/8033096/src/apis/avm/interfaces.ts#L156)*
+*Defined in [src/apis/avm/interfaces.ts:157](https://github.com/ava-labs/avalanchejs/blob/ca67b81/src/apis/avm/interfaces.ts#L157)*
 
 ___
 
@@ -27,4 +27,4 @@ ___
 
 • **txID**: *string*
 
-*Defined in [src/apis/avm/interfaces.ts:155](https://github.com/ava-labs/avalanchejs/blob/8033096/src/apis/avm/interfaces.ts#L155)*
+*Defined in [src/apis/avm/interfaces.ts:156](https://github.com/ava-labs/avalanchejs/blob/ca67b81/src/apis/avm/interfaces.ts#L156)*

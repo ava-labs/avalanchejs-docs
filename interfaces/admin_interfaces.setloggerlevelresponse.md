@@ -18,4 +18,4 @@
 
 • **success**: *boolean*
 
-*Defined in [src/apis/admin/interfaces.ts:56](https://github.com/ava-labs/avalanchejs/blob/8033096/src/apis/admin/interfaces.ts#L56)*
+*Defined in [src/apis/admin/interfaces.ts:56](https://github.com/ava-labs/avalanchejs/blob/ca67b81/src/apis/admin/interfaces.ts#L56)*

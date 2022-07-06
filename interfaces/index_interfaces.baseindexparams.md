@@ -32,4 +32,4 @@
 
 • **encoding**: *string*
 
-*Defined in [src/apis/index/interfaces.ts:7](https://github.com/ava-labs/avalanchejs/blob/8033096/src/apis/index/interfaces.ts#L7)*
+*Defined in [src/apis/index/interfaces.ts:7](https://github.com/ava-labs/avalanchejs/blob/ca67b81/src/apis/index/interfaces.ts#L7)*

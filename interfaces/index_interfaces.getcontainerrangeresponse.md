@@ -18,4 +18,4 @@
 
 • **constainer**: *[BaseIndexParams](index_interfaces.baseindexparams.md)[]*
 
-*Defined in [src/apis/index/interfaces.ts:48](https://github.com/ava-labs/avalanchejs/blob/8033096/src/apis/index/interfaces.ts#L48)*
+*Defined in [src/apis/index/interfaces.ts:48](https://github.com/ava-labs/avalanchejs/blob/ca67b81/src/apis/index/interfaces.ts#L48)*
